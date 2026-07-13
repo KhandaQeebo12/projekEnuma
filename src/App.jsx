@@ -7,26 +7,25 @@ import TodoItem from './components/TodoItem'
 import Todolist from './components/Todolist'
 import TodoForm from './components/TodoForm'
 import useTask from './Hook/useTask'
+import Navbar from './components/Navbar'
 
 function App() {
-  const { tasks, addTask, deleteTask, updateTask } = useTask();
+  const { tasks, toggleTaskStatus, addTask, deleteTask, updateTask } = useTask();
 
   return (
   <>
-    <nav>
-      <div>INI NAVBAR</div>
-      <ul className='nav-list'>
-        <li><a href="#home">SATU</a></li>
-        <li><a href="#about">DUA</a></li>
-        <li><a href="#contact">TIGA</a></li>
-      </ul>
-    </nav>
+    <Navbar />
     
     <h2>TO DO APP</h2>
     
     
     <TodoForm onAddTask={addTask}/>
-    <Todolist />
+    <Todolist
+      tasks={tasks}
+      onDeleteTask={deleteTask}
+      onUpdateTask={updateTask}
+      onToggleStatus={toggleTaskStatus}
+    />
 
   </>
 
