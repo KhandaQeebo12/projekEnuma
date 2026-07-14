@@ -16,7 +16,7 @@ function Navbar() {
             PROJECT
         </NavLink>
         <NavLink to="/pelatihan" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`} >
-            PELATIHAN
+            JURNAL
         </NavLink>
         </div>
     </nav>

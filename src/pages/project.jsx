@@ -1,7 +1,13 @@
-function project() {
+function Project() {
     return (
-        <h1>HASIL PROJECT</h1>
+        <>
+        
+        <h2>Projek saya</h2>
+
+
+       
+        </>
     )
 }
 
-export default project;
+export default Project;

@@ -10,9 +10,10 @@ import useTask from './Hook/useTask'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 
-import project from './pages/project'
-import pelatihan from './pages/pelatihan'
-import about from './pages/about'
+import Home from './pages/home'
+import Project from './pages/project'
+import Pelatihan from './pages/pelatihan'
+import About from './pages/about'
 
 function App() {
   const { tasks, toggleTaskStatus, addTask, deleteTask, updateTask } = useTask();
@@ -22,22 +23,11 @@ function App() {
     <Navbar />
 
     <Routes>
-      <Route path="/" element={<h1>Home</h1>} />
-      <Route path="/pelatihan" element={<pelatihan />} />
-      <Route path="/project" element={<project />} />
-      <Route path="/about" element={<about />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/pelatihan" element={<Pelatihan />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/project" element={<Project />} />
     </Routes>
-    
-    <h2>TO DO APP</h2>
-    
-    
-    <TodoForm onAddTask={addTask}/>
-    <Todolist
-      tasks={tasks}
-      onDeleteTask={deleteTask}
-      onUpdateTask={updateTask}
-      onToggleStatus={toggleTaskStatus}
-    />
 
   </>
 

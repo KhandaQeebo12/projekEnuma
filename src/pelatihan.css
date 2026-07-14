@@ -1,0 +1,19 @@
+div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
