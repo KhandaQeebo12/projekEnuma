@@ -1,6 +1,12 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import "../pelatihan.css"
+import day1 from "../assets/day1.png"
+import day1git from "../assets/day1git.png"
+import day2 from "../assets/day2.png"
+import day2web from "../assets/day2web.png"
+import day2supabase from "../assets/day2supabase.png"
+import day2vercel from "../assets/day2vercel.png"
 
 function Pelatihan () {
 
@@ -16,6 +22,24 @@ function Pelatihan () {
                 <p>Di hari pertama ini saya membuat web sederhana yaitu sebuah "Todo List" dengan menggunakan beberapa
                     komponen ReactJS
                 </p>
+                <img className="gambar1" src={day1} alt="day1" />
+                <p>Di hari ini juga saya belajar tentang apa saja fitur dari github dan bagaimana menaruh file yang ingin diletakkan atau dipost ke github</p>
+                <p>Aplikasi web ini lalu dihubungkan ke repository yang dibuat di dalam Github</p>
+                <img className="gambar1" src={day1git} alt="day1git" />
+            </div>
+        </div>
+
+        <div className="project-container">
+            <div className="projectday1">
+                <h4>Day 2: SUPABASE, ANTIGRAVITY DAN VERCEL</h4>
+                <p>Supabase merupakan salah satu platform backend yang memungkinkan pengembang untuk membuat aplikasi web dan mobile dengan cepat. Antigravity merupakan salah satu code-editor berbasis AI, dan Vercel adalah platform deployment yang memungkinkan pengembang untuk meng-host aplikasi web mereka dengan mudah.</p>
+                <p>Di hari kedua ini saya belajar untuk membuat web berbasis ReactJS yang terhubung dengan database Supabase dengan menggunakan AntiGravity 
+                </p>
+                <img className="gambar1" src={day2} alt="day2" />
+                <img className="gambar1" src={day2web} alt="day2web" />
+                <img className="gambar1" src={day2supabase} alt="day2supabase" />
+                <p>Di hari kedua ini juga saya belajar bagaimana cara mendeploy web gratis dengan menggunakan Vercel</p>
+                <img className="gambar1" src={day2vercel} alt="day2vercel" />
             </div>
         </div>
     </>
