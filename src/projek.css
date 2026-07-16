@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background: var(--border);
+    border-radius: 20px;
+    padding: 32px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.cardpreview {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.cardheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cardtitle {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.badge {
+    background: rgba(45,212,191,0.12);
+    color: #2dd4bf;
+    padding: 6px 16px;
+    border: 1px solid rgba(45,212,191,0.4);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.carddesc {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.techstack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.techtag {
+    background: #1e293b;
+    color:#cbd5e1;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}

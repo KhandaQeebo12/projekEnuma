@@ -7,6 +7,8 @@ import day2 from "../assets/day2.png"
 import day2web from "../assets/day2web.png"
 import day2supabase from "../assets/day2supabase.png"
 import day2vercel from "../assets/day2vercel.png"
+import day3 from "../assets/day3.png"
+import day3tinkercad from "../assets/day3tinkercad.png"
 
 function Pelatihan () {
 
@@ -40,6 +42,18 @@ function Pelatihan () {
                 <img className="gambar1" src={day2supabase} alt="day2supabase" />
                 <p>Di hari kedua ini juga saya belajar bagaimana cara mendeploy web gratis dengan menggunakan Vercel</p>
                 <img className="gambar1" src={day2vercel} alt="day2vercel" />
+            </div>
+        </div>
+
+        <div className="project-container">
+            <div className="projectday1">
+                <h4>Day 3: 9ROUTE DAN TINKERCAD</h4>
+                <p>9Route adalah platform yang memungkinkan pengembang untuk membuat dan mengelola rute perjalanan, sedangkan Tinkercad adalah alat desain 3D yang mudah digunakan.</p>
+                <p>Di hari ketiga ini saya membuat web portofolio menggunakan antigravity dan belajar bagaimana menggunakan Claude Code dengan GEMINI API dengan menggunakan docker tanpa perlu server online
+                </p>
+                <img className="gambar1" src={day3} alt="day3" />
+                <p>Di hari ketiga ini juga saya belajar bagaimana cara 3D Modeling dengan menggunakan Tinkercad`</p>
+                <img className="gambar1" src={day3tinkercad} alt="day3tinkercad" />
             </div>
         </div>
     </>
