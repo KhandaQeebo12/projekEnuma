@@ -9,6 +9,8 @@ import day2supabase from "../assets/day2supabase.png"
 import day2vercel from "../assets/day2vercel.png"
 import day3 from "../assets/day3.png"
 import day3tinkercad from "../assets/day3tinkercad.png"
+import day4wokwi from "../assets/day4wokwi.png"
+import day4firebase from "../assets/day4firebase.png"
 
 function Pelatihan () {
 
@@ -54,6 +56,18 @@ function Pelatihan () {
                 <img className="gambar1" src={day3} alt="day3" />
                 <p>Di hari ketiga ini juga saya belajar bagaimana cara 3D Modeling dengan menggunakan Tinkercad`</p>
                 <img className="gambar1" src={day3tinkercad} alt="day3tinkercad" />
+            </div>
+        </div>
+
+        <div className="project-container">
+            <div className="projectday1">
+                <h4>Day 4: WOKWI DAN FIREBASE</h4>
+                <p>Wokwi merupakan salah satu platform web yang berguna untuk menjadi tempat pembuatan prototype dan menulis kode program untuk IoT</p>
+                <p>Dihari ke empat ini saya belajar untuk membuat program monitor dengan menggunakan DHT22 untuk mengatur adanya suhu dan kelembapan, dan data tersebut akan dikirimkan ke database firebase secara realtime
+                </p>
+                <img className="gambar1" src={day4wokwi} alt="day4" />
+
+                <img className="gambar1" src={day4firebase} alt="day4firebase" />
             </div>
         </div>
     </>
